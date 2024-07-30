@@ -1,0 +1,142 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "OnetooneApplication",
+            "request": "launch",
+            "mainClass": "com.onetoone.onetoone.OnetooneApplication",
+            "projectName": "onetoone"
+        },
+        {
+            "type": "java",
+            "name": "Assignment111Application",
+            "request": "launch",
+            "mainClass": "com.assignment111.assignment111.Assignment111Application"
+        },
+        {
+            "type": "java",
+            "name": "Assignment10Application",
+            "request": "launch",
+            "mainClass": "com.assignment10.assignment10.Assignment10Application"
+        },
+        {
+            "type": "java",
+            "name": "Assignment11Application",
+            "request": "launch",
+            "mainClass": "com.assignment11.assignment11.Assignment11Application",
+            "projectName": "assignment11"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Hashmap.Employee",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "MovieCrud",
+            "request": "launch",
+            "mainClass": "Assignment_6.MovieCrud",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "TourPackage",
+            "request": "launch",
+            "mainClass": "TourPackage.TourPackage",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperations",
+            "request": "launch",
+            "mainClass": "Assignment_4.ArithmeticOperations",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeDirectory",
+            "request": "launch",
+            "mainClass": "QuestionTwo.EmployeeDirectory",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "QuestionTwo.Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "IntegerListManager",
+            "request": "launch",
+            "mainClass": "IntegerListManager",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "AutomativeSystemApp",
+            "request": "launch",
+            "mainClass": "Assignment_2.Automotive.AutomativeSystemApp",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "BankAccountSystem",
+            "request": "launch",
+            "mainClass": "BankAccountSystem.BankAccountSystem",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "BankAccountSystem",
+            "request": "launch",
+            "mainClass": "BankAccountSystem",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "SubscriptionChecker",
+            "request": "launch",
+            "mainClass": "SubscriptionChecker",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "FinancialInsuranceApp",
+            "request": "launch",
+            "mainClass": "FinancialInsuranceApp",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "name": "Test App",
+            "program": "${workspaceFolder}/__m.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "postDebugTask": "Test App",
+            "type": "pwa-node"
+        },
+        {
+            "name": "Submit App",
+            "program": "${workspaceFolder}/__m.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "postDebugTask": "Submit App",
+            "type": "pwa-node"
+        }
+    ]
+}

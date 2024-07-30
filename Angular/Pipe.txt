@@ -1,0 +1,46 @@
+
+<p>{{x | currency}}</p>
+<p>{{x | currency:'CAD'}}</p>
+<p>{{x | currency:'INR'}}</p>
+<h1>Date Pipeline</h1>
+<p>{{x1 | date: 'YYYY-MM-dd h:mm:ss a'}}</p>
+<p>{{x2 | number: '1.0-1'}}</p>
+<p>{{ x3 | json }}</p>
+<p>{{x4 | lowercase}}</p>
+<p>{{x4 | uppercase}}</p>
+<p>{{x5 | percent: '1.0-1': 'en'}}</p>
+
+<router-outlet></router-outlet>
+
+//Html
+
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent implements OnInit {
+x:any=500.00;
+x1 = new Date(2023, 1, 3, 14, 1, 1);
+x2 = 100.88;
+
+x3: { [k: string]: number } = {
+  foo: 1,
+  bar: 2,
+  baz: 3
+};
+
+x4: string = "The quick brown fox jumps over the lazy dog ";
+x5 = 0.88888; 
+
+    
+  ngOnInit(): void {
+
+  }
+
+
+
+  
+}

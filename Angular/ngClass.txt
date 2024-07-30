@@ -1,0 +1,64 @@
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent implements OnInit {
+  design1:any;
+  InputType:any="password";
+  //isClick:boolean=true;
+  buttonValue:any="Subscribe";
+ 
+  submit():void{
+    alert("You Clicked Submit Button");
+   this.buttonValue="Subscribed";
+   this.design1="design";
+  }
+  // employee: any = {
+  //   empName: '',
+  //   empDepartment: '',
+  //   empEmail:''
+  
+  // };
+  ngOnInit(): void {
+  //  this.setEmployee();
+  }
+  // setEmployee()
+  // {
+  //   this.employee.empName="Abhi";
+  //   this.employee.empDepartment="Computer Science";
+  //   this.employee.empEmail="abhi@gmail.com";
+  // }
+
+  // constructor(private router: Router) {}
+
+  // navigateTo(path: string) {
+  //   this.router.navigateByUrl(path);
+  // }
+
+  // ClickMe():void{
+  //   console.log("You Clicked Me");
+  // }
+
+
+  
+}
+
+
+///Html File//////
+
+<p [ngClass]="design1">Welcome to Angular Part</p>
+<input [type]="InputType" name="username" placeholder="Enter your Name">
+
+<input type="button" name="username" [value]="buttonValue" (click)="submit()">
+<router-outlet></router-outlet>
+
+/////css File////
+.design
+{
+    color:blue;
+    font-size: 24px;
+
+}
